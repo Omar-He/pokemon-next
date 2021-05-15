@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 // import cn from 'classnames';
 // import { Modal } from '@components/modal';
-import Link from "next/Link";
+import Link from "next/link";
 
 export const PokeItem = ({ className, pokeData }) => {
   const [openModal, setOpenModal] = useState(false);

@@ -1,5 +1,4 @@
 import Layout from "../components/layout";
-import Link from "next/Link";
 import React, { useState } from "react";
 import { PokeItem } from "../components/pokeItem";
 
